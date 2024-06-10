@@ -14,7 +14,7 @@ timeout 5
 ECHO opening midway authentication
 	Start firefox
 	timeout 3
-	start https://midway-auth.amazon.com/
+	start link
 	ECHO once authenticated click to continue
 PAUSE
 
